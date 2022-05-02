@@ -1,0 +1,49 @@
+html,body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color:antiquewhite;
+    color:blue;
+}   
+.video-grid-container
+{
+    display: grid;
+    background-color:black;
+}
+.main-grid-container
+{
+    display: grid;
+    grid-template-columns: 60% 20%;
+}
+.main-grid-container video
+{
+    margin-left: 60%;
+}
+.main-grid-container  button
+{
+    margin-left: 70%;
+}
+video
+{
+    border-radius: 2%;
+    background-color: black; 
+    width: 50%;   
+}
+h3
+{
+    font-size: x-large;
+    font-family: sans-serif;
+    color: crimson;
+}
+h3,div
+{
+    text-align: center;
+}
+
+h1{
+    margin-top: 0px;
+    background-color: blueviolet;
+    color:  white;
+    font-family: monospace;
+    text-align: center;
+}
